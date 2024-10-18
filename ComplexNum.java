@@ -52,7 +52,7 @@ public class ComplexNum {
 
     public String toString(){
         if(imaginary > 0){ return valid + "+" + imaginary + "i";}
-        else if(imaginary < 0){ return valid + "-" + imaginary + "i";}
+        else if(imaginary < 0){ return valid  + imaginary + "i";}
         else{return valid + "+" + "0i";}
     }
 }
